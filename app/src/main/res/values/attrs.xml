@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RegisterProgressView">
+        <attr name="register_progress_view_indicator_icon" format="reference" />
+        <attr name="register_progress_view_progress_color" format="color|reference" />
+        <attr name="register_progress_view_background_color" format="color|reference" />
+        <attr name="register_progress_view_inner_dot_color" format="color|reference" />
+        <attr name="register_progress_view_progress_height" format="dimension" />
+        <attr name="register_progress_view_background_height" format="dimension" />
+        <attr name="register_progress_view_outer_radius" format="dimension" />
+        <attr name="register_progress_view_inner_radius" format="dimension" />
+        <attr name="register_progress_view_all_step" format="integer" />
+        <attr name="register_progress_view_step" format="integer" />
+        <attr name="register_progress_view_indicator_width" format="integer" />
+        <attr name="register_progress_view_indicator_height" format="integer" />
+    </declare-styleable>
+</resources>
