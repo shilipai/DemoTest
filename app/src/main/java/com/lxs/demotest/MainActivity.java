@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button mTestEventbusBtn;
     private Button mTestViewTreeBtn;
     private Button mTestRegisterProgressViewBtn;
+    private Button mTestLayoutInflaterSetFactoryBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mTestViewTreeBtn.setOnClickListener(this);
         mTestRegisterProgressViewBtn = findViewById(R.id.btn_test_register_progress_view);
         mTestRegisterProgressViewBtn.setOnClickListener(this);
+        mTestLayoutInflaterSetFactoryBtn = findViewById(R.id.btn_test_layout_inflater_set_factory);
+        mTestLayoutInflaterSetFactoryBtn.setOnClickListener(this);
     }
 
     @Override
@@ -46,6 +49,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_test_register_progress_view:
                 startActivity(new Intent(this, TestRegisterProgressViewActivity.class));
+                break;
+            case R.id.btn_test_layout_inflater_set_factory:
+                startActivity(new Intent(this, TestInflaterSetFactoryActivity.class));
                 break;
 
         }

@@ -19,7 +19,8 @@
         <activity android:name=".PopUpWindowTestActivity" />
         <activity android:name=".EventBusTestActivity" />
         <activity android:name=".TestViewTreeActivity" />
-        <activity android:name=".TestRegisterProgressViewActivity"></activity>
+        <activity android:name=".TestRegisterProgressViewActivity" />
+        <activity android:name=".TestInflaterSetFactoryActivity"></activity>
     </application>
 
 </manifest>
