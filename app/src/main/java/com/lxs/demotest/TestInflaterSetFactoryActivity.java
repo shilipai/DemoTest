@@ -36,5 +36,6 @@ public class TestInflaterSetFactoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_inflater_set_factory);
         Log.e(TAG, findViewById(R.id.tv).getClass().getName()); // 不设置Factory的时候，默认替换成android.support.v7.widget.AppCompatTextView
+        Log.e(TAG, MyButton.class.getName());
     }
 }
